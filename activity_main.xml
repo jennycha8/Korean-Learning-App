@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="     Numbers"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#CCB3FF"
+        android:layout_margin="8dp"
+        android:onClick="numbers"/>
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="     Colors"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#B3D9FF"
+        android:layout_margin="8dp"
+        android:onClick="color"/>
+
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="     Days of the Week"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#D9FFB3"
+        android:layout_margin="8dp"
+        android:onClick="days"/>
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text = "     Family Members"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#FFCCB3"
+        android:layout_margin="8dp"
+        android:onClick="family"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

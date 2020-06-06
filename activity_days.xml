@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#CCE5FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="Sunday"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="Monday"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="Tuesday"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="Wednesday"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="Thursday"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="Friday"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="Saturday"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="일요일 (il-yoil)"
+                android:gravity="center_vertical"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="월요일 (wol-yoil)"
+                android:gravity="center_vertical"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="화요일 (hwayoil)"
+                android:gravity="center_vertical"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="수요일 (suyoil)"
+                android:gravity="center_vertical"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="목요일 (mog-yoil)"
+                android:gravity="center_vertical"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="금요일 (geum-yoil)"
+                android:gravity="center_vertical"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:text="토요일 (toyoil)"
+                android:gravity="center_vertical"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

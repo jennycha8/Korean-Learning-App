@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="     Red  - 빨강 (ppalgang)"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#FF0000"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="     Orange - 주황 (juhwang)"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#FF8000"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="     Yellow - 노랑 (nolang)"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#FFF000"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text = "     Green - 초록 (cholog)"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#00FF00"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text = "     Blue - 파랑 (palang)"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#3333FF"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text = "     Indigo  - 남색 (namsaeg)"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#000099"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text = "     Purple - 보라 (Bora)"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:background="#7F00FF"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/white"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
